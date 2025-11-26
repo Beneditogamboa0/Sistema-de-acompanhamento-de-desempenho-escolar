@@ -8,7 +8,7 @@ O sistema centraliza informações essenciais como notas, presenças, faltas, av
 
 🔑 1. Acesso ao Sistema
 
-☑️ Login;
+☑️ Login.
 ☑️ Registo (signup);
 ☑️ Perfis com permissões diferentes (Admin, Professor e Aluno).
 
