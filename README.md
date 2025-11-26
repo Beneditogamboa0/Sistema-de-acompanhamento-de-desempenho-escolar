@@ -38,7 +38,7 @@ JavaScript;\
 HTML/CSS;\
 Arquitetura MVC.
 
-4. 📜 Regras de negócio\
+4. 📜 Regras de negócio
 
 4.1. Acesso ao sistema\
   a.	Signup\
@@ -65,7 +65,7 @@ Arquitetura MVC.
     •	Poder visualizar as suas notas de cada disciplina, presença, faltas e, caso existam, observações comportamentais, com permissão do admin;\
     •	O cálculo das médias de cada disciplina, assim como a média geral, é feito automaticamente;\
     •	Poder informar as disciplinas em que apresenta maior dificuldade;\
-    •	Ter acesso a uma lista de tarefas pessoal, com limite de registro de 20 atividades.\
+    •	Ter acesso a uma lista de tarefas pessoal, com limite de registro de 20 atividades.
 
 
 ```
