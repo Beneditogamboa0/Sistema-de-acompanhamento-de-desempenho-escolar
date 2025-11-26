@@ -43,6 +43,36 @@ O sistema centraliza informações essenciais como notas, presenças, faltas, av
 ☑️ HTML/CSS;
 ☑️ Arquitetura MVC.
 
+4. 🔏 Regras de negócio
+
+4.1. 🗝️ Acesso ao sistema
+  a.	Signup
+    •	Usuários devem definir email, senha e nickname;
+    •	Os emails devem ser únicos;
+    •	Um usuário não pode possuir mais de um perfil;
+    •	As senhas devem conter entre 8 e 20 caracteres;
+    •	O nick do usuário informado deve ser único.
+  b.	Login
+    •	As credenciais do usuário devem coincidir;
+    •	O usuário tem a opção de definir a senha caso se tenha esquecido.
+4.2.	Permissões, funcionamento e uso do sistema
+  a.	Admin
+    •	Tem acesso ao desempenho individual e geral dos alunos;
+    •	Poder entrar em contacto com os encarregados dos alunos caso haja necessidade;
+    •	Cadastrar alunos a um curso, classe e turma.
+  b.	Professor
+    •	Visualizar as notas, faltas e presenças dos seus alunos;
+    •	Visualizar informações apenas dos alunos que leciona;
+    •	Publicar notas apenas dos alunos que leciona e na respectiva disciplina lecionada;
+    •	As notas publicadas podem ser alteradas apenas com permissão da instituição;
+    •	Observações comportamentais devem ser enviadas ao admin.
+  c.	Aluno
+    •	Poder visualizar as suas notas de cada disciplina, presença, faltas e, caso existam, observações comportamentais, com permissão do admin;
+    •	O cálculo das médias de cada disciplina, assim como a média geral, é feito automaticamente;
+    •	Poder informar as disciplinas em que apresenta maior dificuldade;
+    •	Ter acesso a uma lista de tarefas pessoal, com limite de registro de 20 atividades.
+
+
 ```
 MIT License
 
