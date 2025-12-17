@@ -23,13 +23,11 @@ Perfis com permissões diferentes (Admin, Professor e Aluno).
   2.2. 👨‍🏫 Professor\
   Acesso aos alunos das suas disciplinas;\
   Visualização de notas, faltas, turmas e classes;\
-  Contato direto com encarregados em caso de inquietações;\
   Registo e acompanhamento do comportamento do aluno.
   
   2.3. 👨‍🎓 Aluno\
   Visualização das próprias notas, faltas e avaliações;\
-  Indicação das disciplinas com maior e menor dificuldades;\
-  Criação de um plano de estudo personalizado (mini to-do list).
+  Indicação das disciplinas com maior e menor dificuldades.
 
 3. 💻 Tecnologias Utilizadas\
 PHP;\
