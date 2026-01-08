@@ -38,8 +38,8 @@ Arquitetura MVC.
 
   4.1. Acesso ao sistema\
     a.	Signup\
-      •	Usuários devem inserir número do bilhete de identidade e senha;\
-      •	Número do bilhete deve ser único;\
+      •	Usuários devem inserir número do bilhete de identidade, senha e tipo que usuário;\
+      •	Número do bilhete deve ser único e já existir no banco de dados do sistema;\
       •	Um usuário não pode possuir mais de um perfil;\
       •	As senhas devem conter entre 8 e 20 caracteres;\
     b.	Login\
