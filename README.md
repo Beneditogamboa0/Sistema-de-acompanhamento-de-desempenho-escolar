@@ -1,6 +1,6 @@
-# "Mi-School" - Sistema de acompanhamento de desempenho escolar
+# "Schola Mea" - Sistema de acompanhamento de desempenho escolar
 
-Mi-School é um sistema web desenvolvido para facilitar o acompanhamento académico dos alunos de uma instituição de ensino.
+Schola Mea é um sistema web desenvolvido para facilitar o acompanhamento académico dos alunos de uma instituição de ensino.
 
 O sistema centraliza informações essenciais como notas, presenças, faltas, avaliações de comportamento e dificuldades individuais, permitindo uma visão completa e eficiente sobre cada estudante.
 
@@ -16,18 +16,17 @@ Perfis com permissões diferentes (Admin, Professor e Aluno).
   2.1. 👨‍💼 Administrador\
   Cadastro de alunos;\
   Listagem geral de alunos;\
-  Acesso às informações académicas e comportamentais;\
+  Acesso às informações académicas;\
   Contato com encarregados em caso de irregularidades;\
-  Cálculo de médias e estatísticas filtradas por curso, classe e turma.
+  Cálculos de médias e estatísticas avaliados por classe e curso.
 
   2.2. 👨‍🏫 Professor\
   Acesso aos alunos das suas disciplinas;\
-  Visualização de notas, faltas, turmas e classes;\
-  Registo e acompanhamento do comportamento do aluno.
+  Visualização de notas, faltas, turmas e classes.
   
   2.3. 👨‍🎓 Aluno\
   Visualização das próprias notas, faltas e avaliações;\
-  Indicação das disciplinas com maior e menor dificuldades.
+  Indicação das disciplinas com maior e menor dificuldades se baseando em médias.
 
 3. 💻 Tecnologias Utilizadas\
 PHP;\
@@ -40,30 +39,23 @@ Arquitetura MVC.
 
   4.1. Acesso ao sistema\
     a.	Signup\
-      •	Usuários devem definir email, senha e nickname;\
-      •	Os emails devem ser únicos;\
+      •	Usuários devem inserir número do bilhete de identidade e senha;\
+      •	Número do bilhete deve ser único;\
       •	Um usuário não pode possuir mais de um perfil;\
       •	As senhas devem conter entre 8 e 20 caracteres;\
-      •	O nick do usuário informado deve ser único.\
     b.	Login\
       •	As credenciais do usuário devem coincidir;\
-      •	O usuário tem a opção de definir a senha caso se tenha esquecido.\
   4.2.	Permissões, funcionamento e uso do sistema\
     a.	Admin\
       •	Tem acesso ao desempenho individual e geral dos alunos;\
-      •	Poder entrar em contacto com os encarregados dos alunos caso haja necessidade;\
       •	Cadastrar alunos a um curso, classe e turma.\
     b.	Professor\
       •	Visualizar as notas, faltas e presenças dos seus alunos;\
       •	Visualizar informações apenas dos alunos que leciona;\
-      •	Publicar notas apenas dos alunos que leciona e na respectiva disciplina lecionada;\
-      •	As notas publicadas podem ser alteradas apenas com permissão da instituição;\
-      •	Observações comportamentais devem ser enviadas ao admin.\
+      •	Publicar notas apenas dos alunos que leciona e na(s) respectiva(s) disciplina(s) lecionada(s);\
     c.	Aluno\
-      •	Poder visualizar as suas notas de cada disciplina, presença, faltas e, caso existam, observações comportamentais, com permissão do admin;\
-      •	O cálculo das médias de cada disciplina, assim como a média geral, é feito automaticamente;\
-      •	Poder informar as disciplinas em que apresenta maior dificuldade;\
-      •	Ter acesso a uma lista de tarefas pessoal, com limite de registro de 20 atividades.
+      •	Poder visualizar as suas notas de cada disciplina, presenças e faltas;\
+      •	O cálculo da média geral é feito automaticamente.
 
 
 ```
